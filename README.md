@@ -1,2 +1,5 @@
 # gpass
-Set and get password from gnome kearying
+Set and get password from gnome keyring
+
+Require:
+- python-keyring
