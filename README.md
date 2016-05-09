@@ -1,4 +1,4 @@
-# gpass
+# gkpass
 Manage password with gnome keyring secrets database.
 Also with headless support.
 
