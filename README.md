@@ -3,6 +3,7 @@ Manage password with gnome keyring secrets database.
 Also with headless support.
 
 Require:
+- gnome-keyring
 - python-keyring
 
 Don't require:
