@@ -112,4 +112,10 @@ if password:
 
 export -f main
 
-dbus-run-session bash -c main
+# Test for an existing bus daemon, just to be safe
+if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
+    # If not found, launch a new one
+    dbus-run-session bash -c main
+else
+    main
+fi
